@@ -30,10 +30,11 @@ angular.module('nerdTalking').factory 'Auth', [
             else
                 reject null
 
-        factory.getGithubInfo = (canceler = null) ->
+        factory.getGithubInfo = (code, canceler = null) ->
             $q (resolve, reject) ->
-                $http.post('/api/github/auth', {}, factory.httpConfig(canceler)).then ((response) ->
+                $http.post('/api/github/auth', {code: code}, factory.httpConfig(canceler)).then ((response) ->
                     handleSuccessPromise(resolve, reject, response)
                 ), (response) ->
                     handleFailedPromise(resolve, reject, response)
+        factory
 ]

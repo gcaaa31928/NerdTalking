@@ -2,7 +2,9 @@ angular.module('nerdTalking').controller 'MainCtrl', [
     '$scope',
     '$timeout',
     'Config',
-    ($scope, $timeout, Config) ->
+    'Auth',
+    'Me',
+    ($scope, $timeout, Config, Auth, Me) ->
         $scope.showLoginModal = () ->
             $timeout(() ->
                 $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('show')
@@ -12,8 +14,13 @@ angular.module('nerdTalking').controller 'MainCtrl', [
             authPopup(
                 path: Config.githubAuthURL
                 callback: (code) ->
-                    log.info(code)
-
+                    Auth.getGithubInfo(code).then((data) ->
+                        Me.data = data
+                        noty(
+                            text: 'Login success',
+                        )
+                        $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('hide')
+                    )
             )
 
 
