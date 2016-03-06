@@ -2,3 +2,4 @@ development:
   github_client_id: '09118830e21db2f8968c'
   github_client_secret: '48258cd47bd8bdfc18b8d13f1c08a23abd733865'
   github_auth_url: 'https://github.com/login/oauth/access_token'
+  github_get_info: 'https://api.github.com/users'

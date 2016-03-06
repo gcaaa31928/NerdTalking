@@ -6,7 +6,8 @@ class GitHub
     def to_params
         {
             'client_id' => APP_CONFIG['github_client_id'],
-            'client_secret' => APP_CONFIG['github_client_secret']
+            'client_secret' => APP_CONFIG['github_client_secret'],
+            'code' => @code
         }
     end
 
@@ -16,9 +17,10 @@ class GitHub
         http.use_ssl = true
         http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         request = Net::HTTP::Post.new(APP_CONFIG['github_auth_url'])
-        request.add_field('Content-Type', 'application/json')
+        request['ACCEPT'] = 'application/json'
         request.set_form(to_params)
         response = http.request(request)
+        Log.info(response.body.to_s)
         data = JSON.parse(response.body)
         @access_token = data['access_token']
         @scope = data['scope']
@@ -28,4 +30,15 @@ class GitHub
         end
         true
     end
+
+    def get_info
+        uri = URI.parse("https://api.github.com/user?access_token=#{@access_token}")
+        http = Net::HTTP.new(uri.host, uri.port)
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        request = Net::HTTP::Get.new(uri)
+        response = http.request(request)
+        JSON.parse(response.body)
+    end
+
 end

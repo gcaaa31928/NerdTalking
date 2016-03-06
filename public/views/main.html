@@ -10,8 +10,19 @@
             Friends
         </a>
         <div class="right menu">
-            <a class="item">Log In</a>
+            <a class="item" ng-click="showLoginModal()">Log In</a>
         </div>
     </div>
-
+</div>
+<div class="ui basic modal margin-top-35ux ">
+    <div class="ui center aligned header centered">
+        Sign in
+    </div>
+    <div class="content">
+        <div class="ui center aligned grid">
+            <div class="column">
+                <i class="huge github icon clickable outline-d" ng-click="showGithubAuth()"></i> GitHub
+            </div>
+        </div>
+    </div>
 </div>
