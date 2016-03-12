@@ -10,17 +10,34 @@ angular.module('nerdTalking').controller 'MainCtrl', [
                 $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('show')
             )
 
-        $scope.showGithubAuth = () ->
-            authPopup(
-                path: Config.githubAuthURL
-                callback: (code) ->
+        $scope.showAuth = (domain) ->
+            afterAuthSuccess = (data) ->
+                Me.data = data
+                noty(
+                    text: 'Login success',
+                )
+                $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('hide')
+            if domain == 'github'
+                path = Config.githubAuthURL()
+                callback = (code) ->
                     Auth.getGithubInfo(code).then((data) ->
-                        Me.data = data
-                        noty(
-                            text: 'Login success',
-                        )
-                        $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('hide')
+                        afterAuthSuccess(data)
                     )
+            else if domain == 'gitlab'
+                path = Config.gitlabAuthURL()
+                callback = (code) ->
+                    Auth.getGitlabInfo(code).then((data) ->
+                        afterAuthSuccess(data)
+                    )
+            else if domain == 'bitbucket'
+                path = Config.bitbucketAuthURL()
+                callback = (code) ->
+                    Auth.getBitbucketInfo(code).then((data) ->
+                        afterAuthSuccess(data)
+                    )
+            authPopup(
+                path: path
+                callback: callback
             )
 
 

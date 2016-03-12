@@ -1,4 +1,6 @@
 class GitHub
+    attr_accessor :access_token
+
     def initialize(code)
         @code = code
     end

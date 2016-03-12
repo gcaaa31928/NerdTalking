@@ -36,5 +36,20 @@ angular.module('nerdTalking').factory 'Auth', [
                     handleSuccessPromise(resolve, reject, response)
                 ), (response) ->
                     handleFailedPromise(resolve, reject, response)
+
+        factory.getGitlabInfo = (code, canceler = null) ->
+            $q (resolve, reject) ->
+                $http.post('/api/gitlab/auth', {code: code}, factory.httpConfig(canceler)).then ((response) ->
+                    handleSuccessPromise(resolve, reject, response)
+                ), (response) ->
+                    handleFailedPromise(resolve, reject, response)
+
+        factory.getBitbucketInfo = (code, canceler = null) ->
+            $q (resolve, reject) ->
+                $http.post('/api/bitbucket/auth', {code: code}, factory.httpConfig(canceler)).then ((response) ->
+                    handleSuccessPromise(resolve, reject, response)
+                ), (response) ->
+                    handleFailedPromise(resolve, reject, response)
+
         factory
 ]

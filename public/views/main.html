@@ -1,27 +1,52 @@
 <div class="ui inverted segment">
     <div class="ui inverted secondary pointing menu">
-        <a class="active item">
-            Home
-        </a>
-        <a class="item">
-            Messages
-        </a>
-        <a class="item">
-            Friends
+        <a class="ui red inverted header item">
+            NerdTalking
         </a>
         <div class="right menu">
             <a class="item" ng-click="showLoginModal()">Sign In</a>
         </div>
     </div>
 </div>
+<div class="margin-top-2x ui grid">
+        <div class="ui vertical inverted menu two wide column">
+            <a class="active red item">
+                Home
+            </a>
+            <a class="orange item">
+                Messages
+            </a>
+            <a class="yellow item">
+                Friends
+            </a>
+        </div>
+        <div class="ten wide column">
+
+        </div>
+    </div>
+</div>
+
 <div class="ui basic modal margin-top-35ux ">
+    <i class="close icon"></i>
     <div class="ui center aligned header centered">
         Sign in
     </div>
     <div class="content">
         <div class="ui center aligned grid">
-            <div class="column">
-                <i class="huge github icon clickable outline-d" ng-click="showGithubAuth()"></i> GitHub
+            <div class="row">
+                <div class="column">
+                    <i class="huge github icon clickable outline-d" ng-click="showAuth('github')"></i> GitHub
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <i class="huge github alternate icon clickable outline-d" ng-click="showAuth('gitlab')"></i> Gitlab
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <i class="huge bitbucket icon clickable outline-d" ng-click="showAuth('bitbucket')"></i> Bitbucket
+                </div>
             </div>
         </div>
     </div>

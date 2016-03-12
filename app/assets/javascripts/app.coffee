@@ -2,6 +2,7 @@ nerdTalking = angular.module 'nerdTalking', [
     'ngAnimate',
     'ngAria',
     'ui.router',
+    'ngStorage'
 ]
 
 nerdTalking.config ($stateProvider, $urlRouterProvider) ->

@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   # protect_from_forgery with: :exception
     if Rails.env.development?
-        rescue_from StandardError, :with => :render_standard_error
+        # rescue_from StandardError, :with => :render_standard_error
     end
 
     before_filter :set_cors_header

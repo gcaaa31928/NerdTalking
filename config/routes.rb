@@ -2,6 +2,8 @@ Rails.application.routes.draw do
     root :to => 'view#index'
     namespace :api do
         post '/github/auth' => 'auth#github_auth'
+        post '/gitlab/auth' => 'auth#gitlab_auth'
+        post '/bitbucket/auth' => 'auth#bitbucket_auth'
     end
     # The priority is based upon order of creation: first created -> highest priority.
     # See how all your routes lay out with "rake routes".
