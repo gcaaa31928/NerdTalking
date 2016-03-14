@@ -5,3 +5,12 @@ body {
 .margin-top-2x {
     margin-top: 20px !important;
 }
+
+.custom.message {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 300px;
+    margin: auto;
+}

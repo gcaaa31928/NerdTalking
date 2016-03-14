@@ -14,3 +14,4 @@ nerdTalking.config ($stateProvider, $urlRouterProvider) ->
         templateUrl: 'views/index.html'
         controller: 'IndexCtrl'
     )
+

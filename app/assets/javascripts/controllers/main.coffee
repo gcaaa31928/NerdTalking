@@ -4,7 +4,16 @@ angular.module('nerdTalking').controller 'MainCtrl', [
     'Config',
     'Auth',
     'Me',
-    ($scope, $timeout, Config, Auth, Me) ->
+    'Tool',
+    ($scope, $timeout, Config, Auth, Me, Tool) ->
+        $scope.noti = (header, message, delay = 2000) ->
+            $timeout(() ->
+                Tool.animateCss($('.custom.message.success'), 'bounceInDown')
+                $timeout(() ->
+                    Tool.animateCss($('.custom.message.success'), 'bounceInUp')
+                , delay)
+            )
+
         $scope.showLoginModal = () ->
             $timeout(() ->
                 $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('show')
@@ -13,9 +22,7 @@ angular.module('nerdTalking').controller 'MainCtrl', [
         $scope.showAuth = (domain) ->
             afterAuthSuccess = (data) ->
                 Me.data = data
-                noty(
-                    text: 'Login success',
-                )
+                $('.custom_container').noty()
                 $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('hide')
             if domain == 'github'
                 path = Config.githubAuthURL()
@@ -39,6 +46,7 @@ angular.module('nerdTalking').controller 'MainCtrl', [
                 path: path
                 callback: callback
             )
+
 
 
         authPopup = (options) ->
