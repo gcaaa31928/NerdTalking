@@ -5,7 +5,11 @@
             NerdTalking
         </a>
         <div class="right menu">
-            <a class="item" ng-click="showLoginModal()">Sign In</a>
+            <a class="item" ng-if="!Me.isLogin()" ng-click="showLoginModal()">Sign In</a>
+            <a class="item" ng-if="Me.isLogin()">
+                <img ng-src="{{Me.data.avatar}}">
+            </a>
+
         </div>
     </div>
 </div>
@@ -35,17 +39,17 @@
     <div class="content">
         <div class="ui center aligned grid">
             <div class="row">
-                <div class="column">
+                <div class="two wide column">
                     <i class="huge github icon clickable outline-d" ng-click="showAuth('github')"></i> GitHub
                 </div>
             </div>
             <div class="row">
-                <div class="column">
+                <div class="two wide column">
                     <i class="huge github alternate icon clickable outline-d" ng-click="showAuth('gitlab')"></i> Gitlab
                 </div>
             </div>
             <div class="row">
-                <div class="column">
+                <div class="two wide column">
                     <i class="huge bitbucket icon clickable outline-d" ng-click="showAuth('bitbucket')"></i> Bitbucket
                 </div>
             </div>
@@ -53,10 +57,10 @@
     </div>
 </div>
 
-<div class="ui success message custom">
+<div class="ui success message custom invisible">
     <i class="close icon"></i>
     <div class="header">
-        Your user registration was successful.
+        {{header}}
     </div>
-    <p>You may now log-in with the username you have chosen</p>
+    <p>{{message}}</p>
 </div>

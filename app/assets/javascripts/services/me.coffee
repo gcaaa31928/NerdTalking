@@ -4,8 +4,12 @@ angular.module('nerdTalking').factory 'Me', [
     '$localStorage',
     ($http, $q, $localStorage) ->
         factory = {}
+        factory.data = $localStorage.data || null
         factory.setData = (data) ->
-            $localStorage.accessToken = factory.accessToken =  data.access_token
+            $localStorage.data = factory.data =  data
+
+        factory.isLogin = () ->
+            factory.data? && factory.data.access_token?
 
         factory
 ]

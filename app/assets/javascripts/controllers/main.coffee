@@ -6,13 +6,29 @@ angular.module('nerdTalking').controller 'MainCtrl', [
     'Me',
     'Tool',
     ($scope, $timeout, Config, Auth, Me, Tool) ->
+
+        initialize = () ->
+            window.$scope = $scope
+            $scope.Me = Me
+        initialize()
+
+
         $scope.noti = (header, message, delay = 2000) ->
             $timeout(() ->
+                $scope.header = header
+                $scope.message = message
+                $('.custom.message.success').removeClass('invisible')
+                $('.custom.message.success').addClass('visible')
                 Tool.animateCss($('.custom.message.success'), 'bounceInDown')
                 $timeout(() ->
-                    Tool.animateCss($('.custom.message.success'), 'bounceInUp')
+                    Tool.animateCss($('.custom.message.success'), 'bounceOutUp', () ->
+                        $('.custom.message.success').removeClass('visible')
+                        $('.custom.message.success').addClass('invisible')
+                    )
                 , delay)
             )
+
+
 
         $scope.showLoginModal = () ->
             $timeout(() ->
@@ -21,8 +37,8 @@ angular.module('nerdTalking').controller 'MainCtrl', [
 
         $scope.showAuth = (domain) ->
             afterAuthSuccess = (data) ->
-                Me.data = data
-                $('.custom_container').noty()
+                Me.setData(data)
+                $scope.noti('Sign In success.', 'You may now log-in with the username')
                 $('.ui.basic.modal').modal('setting', 'transition', 'horizontal flip').modal('hide')
             if domain == 'github'
                 path = Config.githubAuthURL()

@@ -16,7 +16,7 @@ class Api::AuthController < ApplicationController
         user.followers = info['followers']
         user.avatar = info['avatar_url']
         user.save!
-        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token]))
+        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token, :avatar]))
     end
 
     def gitlab_auth
@@ -33,7 +33,7 @@ class Api::AuthController < ApplicationController
         user.email = info['email']
         user.avatar = info['avatar_url']
         user.save!
-        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token]))
+        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token, :avatar]))
     end
 
     def bitbucket_auth
@@ -51,7 +51,7 @@ class Api::AuthController < ApplicationController
         user.avatar = info['avatar']['href']
         user.followers = info['followers']
         user.save!
-        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token]))
+        render HttpStatusCode.ok(user.as_json(only: [:id, :name, :followers, :access_token, :avatar]))
     end
 
 end

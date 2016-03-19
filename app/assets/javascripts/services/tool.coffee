@@ -3,10 +3,11 @@ angular.module('nerdTalking').factory 'Tool', [
     '$q',
     ($http, $q) ->
         factory = {}
-        factory.animateCss = (DOMObject, animationName) ->
+        factory.animateCss = (DOMObject, animationName, callback) ->
             animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
             DOMObject.addClass('animated ' + animationName).one(animationEnd, () ->
                 DOMObject.removeClass('animated ' + animationName)
+                (callback || angular.noop)()
             )
 
         factory
