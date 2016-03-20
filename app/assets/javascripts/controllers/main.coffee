@@ -10,8 +10,12 @@ angular.module('nerdTalking').controller 'MainCtrl', [
         initialize = () ->
             window.$scope = $scope
             $scope.Me = Me
-        initialize()
+            $scope.render()
 
+        $scope.render = () ->
+            $timeout(() ->
+                $('.ui.dropdown').dropdown()
+            )
 
         $scope.noti = (header, message, delay = 2000) ->
             $timeout(() ->
@@ -90,4 +94,7 @@ angular.module('nerdTalking').controller 'MainCtrl', [
             else
                 console.error('Problem authenticating');
                 return "";
+
+        initialize()
+
 ]

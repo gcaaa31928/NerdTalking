@@ -6,9 +6,15 @@
         </a>
         <div class="right menu">
             <a class="item" ng-if="!Me.isLogin()" ng-click="showLoginModal()">Sign In</a>
-            <a class="item" ng-if="Me.isLogin()">
+            <div class="ui right dropdown item" ng-if="Me.isLogin()">
                 <img ng-src="{{Me.data.avatar}}">
-            </a>
+                <i class="dropdown icon"></i>
+                <div class="ui custom inverted menu">
+                    <div class="item">Electronics</div>
+                    <div class="item">Automotive</div>
+                    <div class="item">Home</div>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -25,8 +31,7 @@
                 Friends
             </a>
         </div>
-        <div class="ten wide column">
-
+        <div class="ten wide column" ui-view>
         </div>
     </div>
 </div>
