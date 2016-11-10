@@ -13,12 +13,9 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
+/tmp/*
 !/log/.keep
-/tmp
-/public/bower_components/*
-/public/node_modules/*
-/.idea/*
-*.png
-/node_modules/*
-/doc/**
-/repositories/**/*
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
