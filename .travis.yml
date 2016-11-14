@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - 2.3.1
+env:
+  - DB=postgresql
+services:
+  - postgresql
+script:
+  - bundle install --jobs=3 --retry=3 --deployment
+  - RAILS_ENV=test bundle exec rake db:migrate
+  - bundle exec rails test
+before_script:
+  - cp config/database.travis.yml config/database.yml
+  - psql -c 'create database nerd_talking_test' -U postgres
