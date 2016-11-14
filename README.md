@@ -1,3 +1,9 @@
+
+
+[![Build Status](https://travis-ci.org/gcaaa31928/NerdTalking.svg?branch=master)](https://travis-ci.org/gcaaa31928/NerdTalking)
+Please Pass!!
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
