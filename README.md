@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/gcaaa31928/NerdTalking.svg?branch=master)](https://travis-ci.org/gcaaa31928/NerdTalking)
 Please Pass!!
 
+[![Coverage Status](https://coveralls.io/repos/github/gcaaa31928/NerdTalking/badge.svg?branch=master)](https://coveralls.io/github/gcaaa31928/NerdTalking?branch=master)
+
 
 # README
 
