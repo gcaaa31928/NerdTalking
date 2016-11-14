@@ -1,6 +1,6 @@
 class Api::ArticlesController < ApplicationController
     def create
-        retrieve
+        valid
         permitted = params.permit(:title, :desc, :url, :date)
         article = Article.new(title: permitted[:title],
                               desc: permitted[:desc],
@@ -17,6 +17,7 @@ class Api::ArticlesController < ApplicationController
     end
 
     def edit
+        valid
         permitted = params.permit(:id, :title, :desc, :url, :date)
         article = Article.find_by(id: permitted[:id].to_i)
         article.update_attributes(title: permitted[:title],
@@ -38,7 +39,7 @@ class Api::ArticlesController < ApplicationController
     end
 
 
-    def retrieve
+    def valid
         require_headers
         retrieve_admin
         if @admin.nil?
@@ -48,6 +49,7 @@ class Api::ArticlesController < ApplicationController
 
     def retrieve_admin
         if @access_token.present?
+            @admin = Admin.find_by(access_token: @access_token)
         end
     end
 

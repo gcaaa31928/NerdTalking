@@ -5,15 +5,10 @@
 # below each fixture, per the syntax in the comments below
 #
 one:
-  id: 1
-  title: title
-  desc: desc
-  url: url
-  date: 2016-01-01
+  access_token: access_token
+  email: test@test.test
 
-two:
-  title: title2
-  desc: desc
-  url: url
-
+# column: value
+#
+two: {}
 # column: value
