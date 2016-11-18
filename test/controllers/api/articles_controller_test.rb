@@ -18,7 +18,7 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'create article' do
         post '/api/articles/create',
              params: {title: "can create", desc: "desc", url: "url",
-                      date:Date.current.to_s , tags: ['ch', 'en']},
+                      date: Date.current.to_s, tags: ['ch', 'en']},
              headers: {'AUTHORIZATION': 'access_token'}
         article = Article.first
         assert_equal("can create", article.title)
@@ -60,12 +60,20 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
 
     test 'can edit article' do
         post '/api/articles/edit',
-             params: {id: 1, title: "can create", desc: "created", url: "url"},
+             params: {id: 1,
+                      title: "can create",
+                      desc: "created",
+                      url: "url",
+                      date: Date.current.to_s,
+                      tags: ['ch', 'en']
+             },
              headers: {'AUTHORIZATION': 'access_token'}
         assert_response :success
         article = Article.find(1)
         assert_equal(article.title, 'can create')
         assert_equal(article.desc, 'created')
+        assert_equal(['ch', 'en'], article.tags)
+        assert_equal(Date.current, article.date)
     end
 
 end

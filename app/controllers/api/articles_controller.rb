@@ -19,12 +19,13 @@ class Api::ArticlesController < ApplicationController
 
     def edit
         valid!
-        permitted = params.permit(:id, :title, :desc, :url, :date)
+        permitted = params.permit(:id, :title, :desc, :url, :date, :tags => [])
         article = Article.find_by(id: permitted[:id].to_i)
         article.update_attributes(title: permitted[:title],
                                   desc: permitted[:desc],
                                   url: permitted[:url],
-                                  date: permitted[:date])
+                                  date: DateTime.parse(permitted[:date]),
+                                  tags: permitted[:tags])
         render HttpStatusCode.ok
     rescue => e
         render HttpStatusCode.forbidden(
