@@ -18,9 +18,14 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'create article' do
         post '/api/articles/create',
              params: {title: "can create", desc: "desc", url: "url",
-                      tags: ['ch', 'en']},
+                      date:Date.current.to_s , tags: ['ch', 'en']},
              headers: {'AUTHORIZATION': 'access_token'}
-        p(Article.all.to_json)
+        article = Article.first
+        assert_equal("can create", article.title)
+        assert_equal("desc", article.desc)
+        assert_equal("url", article.url)
+        assert_equal(['ch', 'en'], article.tags)
+        assert_equal(Date.current, article.date)
         assert_response :success
     end
 

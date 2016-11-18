@@ -2,11 +2,10 @@ class Api::ArticlesController < ApplicationController
     def create
         valid!
         permitted = params.permit(:title, :desc, :url, :date, :tags => [])
-        p(permitted[:tags])
         article = Article.new(title: permitted[:title],
                               desc: permitted[:desc],
                               url: permitted[:url],
-                              date: permitted[:date],
+                              date: DateTime.parse(permitted[:date]),
                               tags: permitted[:tags])
         article.save!
         render HttpStatusCode.ok
