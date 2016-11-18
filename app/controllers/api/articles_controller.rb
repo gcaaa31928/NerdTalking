@@ -1,11 +1,13 @@
 class Api::ArticlesController < ApplicationController
     def create
-        valid
-        permitted = params.permit(:title, :desc, :url, :date)
+        valid!
+        permitted = params.permit(:title, :desc, :url, :date, :tags => [])
+        p(permitted[:tags])
         article = Article.new(title: permitted[:title],
                               desc: permitted[:desc],
                               url: permitted[:url],
-                              date: permitted[:date])
+                              date: permitted[:date],
+                              tags: permitted[:tags])
         article.save!
         render HttpStatusCode.ok
     rescue => e
@@ -17,7 +19,7 @@ class Api::ArticlesController < ApplicationController
     end
 
     def edit
-        valid
+        valid!
         permitted = params.permit(:id, :title, :desc, :url, :date)
         article = Article.find_by(id: permitted[:id].to_i)
         article.update_attributes(title: permitted[:title],
@@ -39,7 +41,7 @@ class Api::ArticlesController < ApplicationController
     end
 
 
-    def valid
+    def valid!
         require_headers
         retrieve_admin
         if @admin.nil?
