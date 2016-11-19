@@ -9,12 +9,6 @@ class Api::ArticlesController < ApplicationController
                               tags: permitted[:tags])
         article.save!
         render HttpStatusCode.ok
-    rescue => e
-        render HttpStatusCode.forbidden(
-            {
-                errorMsg: "#{$!}"
-            }
-        )
     end
 
     def edit
@@ -27,12 +21,13 @@ class Api::ArticlesController < ApplicationController
                                   date: DateTime.parse(permitted[:date]),
                                   tags: permitted[:tags])
         render HttpStatusCode.ok
-    rescue => e
-        render HttpStatusCode.forbidden(
-            {
-                errorMsg: "#{$!}"
-            }
-        )
+
+    end
+
+    def delete
+        valid!
+
+
     end
 
     def all
@@ -45,7 +40,7 @@ class Api::ArticlesController < ApplicationController
         require_headers
         retrieve_admin
         if @admin.nil?
-            raise '憑證失效'
+            raise Errors::ForbiddenError.new('憑證失效', 403)
         end
     end
 

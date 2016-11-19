@@ -5,14 +5,14 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'cannot create article if have no access key' do
         post '/api/articles/create',
              params: {title: "can create", desc: "desc", url: "url"}
-        assert_response 400
+        assert_response 403
     end
 
     test 'cannot create article if wrong token' do
         post '/api/articles/create',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token1'}
-        assert_response 400
+        assert_response 403
     end
 
     test 'create article' do
@@ -41,21 +41,21 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'cannot edit article without access token' do
         post '/api/articles/edit',
              params: {title: "can create", desc: "desc", url: "url"}
-        assert_response 400
+        assert_response 403
     end
 
     test 'cannot edit article with wrong access token' do
         post '/api/articles/edit',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token1'}
-        assert_response 400
+        assert_response 403
     end
 
     test 'cannot edit article without id' do
         post '/api/articles/edit',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token'}
-        assert_response 400
+        assert_response 403
     end
 
     test 'can edit article' do
