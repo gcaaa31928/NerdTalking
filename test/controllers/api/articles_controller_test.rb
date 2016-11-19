@@ -55,7 +55,7 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
         post '/api/articles/edit',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token'}
-        assert_response 403
+        assert_response 500
     end
 
     test 'can edit article' do

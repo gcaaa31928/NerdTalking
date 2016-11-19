@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-    rescue_from Errors::BaseResponseError, :with => :render_standard_error
+    rescue_from StandardError, :with => :render_standard_error
 
     before_action :set_cors_header
 
@@ -20,6 +20,10 @@ class ApplicationController < ActionController::Base
         unless Rails.env.test?
             Log.exception(error)
         end
-        render json: {error: error.message, status: error.error_code}, status: error.error_code
+        if error.class.superclass == Errors::BaseResponseError
+            render json: {error: error.message, status: error.error_code}, status: error.error_code
+        else
+            render json: {error: error.message, status: 500}, status: 500
+        end
     end
 end

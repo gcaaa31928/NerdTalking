@@ -2,6 +2,9 @@ class Api::ArticlesController < ApplicationController
     def create
         valid!
         permitted = params.permit(:title, :desc, :url, :date, :tags => [])
+        if permitted[:date].nil?
+            permitted[:date] = Date.current.to_s
+        end
         article = Article.new(title: permitted[:title],
                               desc: permitted[:desc],
                               url: permitted[:url],
@@ -14,6 +17,9 @@ class Api::ArticlesController < ApplicationController
     def edit
         valid!
         permitted = params.permit(:id, :title, :desc, :url, :date, :tags => [])
+        if permitted[:date].nil?
+            permitted[:date] = Date.current.to_s
+        end
         article = Article.find_by(id: permitted[:id].to_i)
         article.update_attributes(title: permitted[:title],
                                   desc: permitted[:desc],
