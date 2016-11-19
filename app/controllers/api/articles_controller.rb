@@ -32,8 +32,9 @@ class Api::ArticlesController < ApplicationController
 
     def delete
         valid!
-
-
+        permitted = params.permit(:id)
+        Article.destroy(permitted[:id].to_i)
+        render HttpStatusCode.ok
     end
 
     def all

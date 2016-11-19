@@ -76,4 +76,22 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
         assert_equal(Date.current, article.date)
     end
 
+    test 'cannot delete article if wrong token' do
+        post '/api/articles/delete',
+             params: {id: 1},
+             headers: {'AUTHORIZATION': 'access_token1'}
+        assert_response 403
+    end
+
+    test 'delete article' do
+        article = Article.find(1)
+        assert_not_nil(article)
+        post '/api/articles/delete',
+             params: {id: 1},
+             headers: {'AUTHORIZATION': 'access_token'}
+        assert_response 200
+        article = Article.find_by(id: 1)
+        assert_nil(article)
+    end
+
 end
