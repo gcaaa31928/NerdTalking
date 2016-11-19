@@ -39,27 +39,27 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     end
 
     test 'cannot edit article without access token' do
-        post '/api/articles/edit',
+        post '/api/articles/1/edit',
              params: {title: "can create", desc: "desc", url: "url"}
         assert_response 403
     end
 
     test 'cannot edit article with wrong access token' do
-        post '/api/articles/edit',
+        post '/api/articles/1/edit',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
     end
 
     test 'cannot edit article without id' do
-        post '/api/articles/edit',
+        post '/api/articles/101/edit',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token'}
         assert_response 500
     end
 
     test 'can edit article' do
-        post '/api/articles/edit',
+        post '/api/articles/1/edit',
              params: {id: 1,
                       title: "can create",
                       desc: "created",
@@ -77,7 +77,7 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     end
 
     test 'cannot delete article if wrong token' do
-        post '/api/articles/delete',
+        post '/api/articles/1/delete',
              params: {id: 1},
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
@@ -86,12 +86,23 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'delete article' do
         article = Article.find(1)
         assert_not_nil(article)
-        post '/api/articles/delete',
+        post '/api/articles/1/delete',
              params: {id: 1},
              headers: {'AUTHORIZATION': 'access_token'}
         assert_response 200
         article = Article.find_by(id: 1)
         assert_nil(article)
+    end
+
+    test 'show article' do
+        get '/api/articles/1'
+        body = JSON.parse(@response.body)
+        article = body['data']
+        expected_article = Article.find(1)
+        assert_equal(article['title'], expected_article.title)
+        assert_equal(article['desc'], expected_article.desc)
+        assert_equal(article['url'], expected_article.url)
+        assert_equal(article['date'], expected_article.date.to_s)
     end
 
 end

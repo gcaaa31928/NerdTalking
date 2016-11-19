@@ -1,6 +1,41 @@
 class Api::IssuesController < ApplicationController
     def create
+        valid!
+        permitted = params.permit(:name, :date)
+        if permitted[:date].nil?
+            permitted[:date] = Date.current.to_s
+        end
+        issue = Issue.new(name: permitted[:name],
+                          date: DateTime.parse(permitted[:date]))
+        issue.save!
+        render HttpStatusCode.ok
+    end
 
+    def edit
+        valid!
+        permitted = params.permit(:id, :name, :date)
+        if permitted[:date].nil?
+            permitted[:date] = Date.current.to_s
+        end
+        issue = Issue.find_by(id: permitted[:id].to_i)
+        issue.update_attributes(name: permitted[:name],
+                                date: DateTime.parse(permitted[:date]))
+        render HttpStatusCode.ok
+    end
+
+    def delete
+        valid!
+        permitted = params.permit(:id)
+        Issue.destroy(permitted[:id].to_i)
+        render HttpStatusCode.ok
+    end
+
+    def all
+        issues = Issue.all
+        render HttpStatusCode.ok(issues.as_json(
+            include: {articles: {
+                except: [:created_at, :updated_at]
+            }}, except: [:created_at, :updated_at]))
     end
 
 

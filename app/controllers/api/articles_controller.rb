@@ -42,6 +42,12 @@ class Api::ArticlesController < ApplicationController
         render HttpStatusCode.ok(articles.as_json(except: [:created_at, :updated_at]))
     end
 
+    def show
+        permitted = params.permit(:id)
+        article = Article.find(permitted[:id].to_i)
+        render HttpStatusCode.ok(article.as_json(except: [:created_at, :updated_at]))
+    end
+
 
     def valid!
         require_headers
