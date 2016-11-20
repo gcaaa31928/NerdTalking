@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
     namespace :api do
-        post 'articles/create' => 'articles#create'
-        post 'articles/:id/edit' => 'articles#edit'
-        post 'articles/:id/delete' => 'articles#delete'
 
-        get 'articles' => 'articles#all'
-        get 'articles/:id' => 'articles#show'
+        resources :articles
+
+        post 'issues/create' => 'issues#create'
+        post 'issues/:id/edit' => 'issues#edit'
+        post 'issues/:id/delete' => 'issues#delete'
+
+        get 'issues' => 'issues#all'
+        get 'issues/:id' => 'issues#show'
 
     end
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

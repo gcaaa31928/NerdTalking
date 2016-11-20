@@ -3,20 +3,20 @@ require 'test_helper'
 class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
 
     test 'cannot create article if have no access key' do
-        post '/api/articles/create',
+        post '/api/articles',
              params: {title: "can create", desc: "desc", url: "url"}
         assert_response 403
     end
 
     test 'cannot create article if wrong token' do
-        post '/api/articles/create',
+        post '/api/articles',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
     end
 
     test 'create article' do
-        post '/api/articles/create',
+        post '/api/articles',
              params: {title: "can create", desc: "desc", url: "url",
                       date: Date.current.to_s, tags: ['ch', 'en']},
              headers: {'AUTHORIZATION': 'access_token'}
@@ -39,27 +39,27 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     end
 
     test 'cannot edit article without access token' do
-        post '/api/articles/1/edit',
+        patch '/api/articles/1',
              params: {title: "can create", desc: "desc", url: "url"}
         assert_response 403
     end
 
     test 'cannot edit article with wrong access token' do
-        post '/api/articles/1/edit',
+        patch '/api/articles/1',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
     end
 
     test 'cannot edit article without id' do
-        post '/api/articles/101/edit',
+        patch '/api/articles/101',
              params: {title: "can create", desc: "desc", url: "url"},
              headers: {'AUTHORIZATION': 'access_token'}
         assert_response 500
     end
 
     test 'can edit article' do
-        post '/api/articles/1/edit',
+        patch '/api/articles/1',
              params: {id: 1,
                       title: "can create",
                       desc: "created",
@@ -77,8 +77,7 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     end
 
     test 'cannot delete article if wrong token' do
-        post '/api/articles/1/delete',
-             params: {id: 1},
+        delete '/api/articles/1',
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
     end
@@ -86,8 +85,7 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
     test 'delete article' do
         article = Article.find(1)
         assert_not_nil(article)
-        post '/api/articles/1/delete',
-             params: {id: 1},
+        delete '/api/articles/1',
              headers: {'AUTHORIZATION': 'access_token'}
         assert_response 200
         article = Article.find_by(id: 1)

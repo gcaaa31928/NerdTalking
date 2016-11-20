@@ -14,7 +14,7 @@ class Api::ArticlesController < ApplicationController
         render HttpStatusCode.ok
     end
 
-    def edit
+    def update
         valid!
         permitted = params.permit(:id, :title, :desc, :url, :date, :tags => [])
         if permitted[:date].nil?
@@ -30,14 +30,14 @@ class Api::ArticlesController < ApplicationController
 
     end
 
-    def delete
+    def destroy
         valid!
         permitted = params.permit(:id)
         Article.destroy(permitted[:id].to_i)
         render HttpStatusCode.ok
     end
 
-    def all
+    def index
         articles = Article.all
         render HttpStatusCode.ok(articles.as_json(except: [:created_at, :updated_at]))
     end
