@@ -3,20 +3,20 @@ require 'test_helper'
 class Api::IssuesControllerTest < ActionDispatch::IntegrationTest
 
     test 'cannot create issue if have no access key' do
-        post '/api/issues/create',
+        post '/api/issues',
              params: {name: "issue", date: Date.current.to_s}
         assert_response 403
     end
 
     test 'cannot create issue if wrong token' do
-        post '/api/issues/create',
+        post '/api/issues',
              params: {name: "issue", date: Date.current.to_s},
              headers: {'AUTHORIZATION': 'access_token1'}
         assert_response 403
     end
 
     test 'create issue' do
-        post '/api/issues/create',
+        post '/api/issues',
              params: {name: "issue", date: Date.current.to_s},
              headers: {'AUTHORIZATION': 'access_token'}
         issue = Issue.first
@@ -29,9 +29,9 @@ class Api::IssuesControllerTest < ActionDispatch::IntegrationTest
         get '/api/issues'
         assert_response :success
         body = JSON.parse(@response.body)
-        article = body['data']
-        assert_equal(article.length, 2)
-        assert_equal(article[0]['title'], 'title')
+        issues = body['data']
+        assert_equal(issues.length, 2)
+        assert_equal(issues[0]['name'], 'name')
     end
 
 end
