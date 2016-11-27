@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+    get 'views/index'
+
     namespace :api do
 
         resources :articles
