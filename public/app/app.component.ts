@@ -1,11 +1,19 @@
-import {Component} from '@angular/core';
+import {Component, AfterViewInit} from '@angular/core';
 
+declare var skrollr: any;
 @Component({
     selector: 'my-app',
-    template: `
-        <h1>Hello {{name}}</h1>
-        <router-outlet></router-outlet>`,
+    templateUrl: './app/app.html',
+    styleUrls: ['./app/app.style.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
     name = 'Angular';
+
+    constructor() {
+    }
+
+    ngAfterViewInit() {
+        skrollr.init();
+
+    }
 }

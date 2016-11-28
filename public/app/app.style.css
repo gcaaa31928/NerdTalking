@@ -1,0 +1,20 @@
+nav.dash {
+}
+
+.logo-word {
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    position: absolute;
+    margin-top: 10px;
+}
+.logo {
+    float: right;
+    position: absolute;
+    text-align: left;
+}
+
+
+.dash-content {
+    margin-top: 100px;
+}

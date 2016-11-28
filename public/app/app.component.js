@@ -13,10 +13,14 @@ var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Angular';
     }
+    AppComponent.prototype.ngAfterViewInit = function () {
+        skrollr.init();
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n        <h1>Hello {{name}}</h1>\n        <router-outlet></router-outlet>",
+            templateUrl: './app/app.html',
+            styleUrls: ['./app/app.style.css']
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

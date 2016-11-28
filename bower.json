@@ -1,0 +1,21 @@
+{
+  "name": "nerd_talking",
+  "description": "[![Build Status](https://travis-ci.org/gcaaa31928/NerdTalking.svg?branch=master)](https://travis-ci.org/gcaaa31928/NerdTalking) Please Pass!!",
+  "main": "index.js",
+  "authors": [
+    "gcaaa31928 <gcaaa31928@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/gcaaa31928/NerdTalking",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "skrollr": "^0.6.30"
+  }
+}
