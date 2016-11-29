@@ -1,6 +1,70 @@
 nav.dash {
 }
 
+.dash-container {
+    height: 100%;
+}
+
+.dash-content {
+    color: #FFF;
+    line-height: 140px;
+}
+
+p.thought {
+    right: 23%;
+    width: 130px;
+    line-height: 100px;
+    -webkit-border-radius: 108px;
+    -moz-border-radius: 108px;
+    border-radius: 108px;
+}
+
+
+p.bubble {
+    position: absolute;
+    width: 205px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 60px auto;
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+
+p.bubble:before, p.bubble:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+p.thought:before, p.thought:after {
+    left: -25px;
+    top: 72px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 6px solid #666;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+}
+
+p.thought:after {
+    width: 20px;
+    height: 20px;
+    left: -29px;
+    top: 100px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
 .logo-word {
     text-align: center;
     color: #ffffff;
@@ -15,6 +79,6 @@ nav.dash {
 }
 
 
-.dash-content {
+.content {
     margin-top: 100px;
 }
