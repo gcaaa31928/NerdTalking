@@ -82,6 +82,7 @@ p.thought:after {
     float: left;
     margin: 0px auto;
     position: relative;
+    font-family: 'Victors-Pixel-Font';
 }
 
 .logo {

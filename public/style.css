@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Victors-Pixel-Font';
+    src:url('fonts/Victors-Pixel-Font.ttf.woff') format('woff'),
+    url('fonts/Victors-Pixel-Font.ttf.svg#Victors-Pixel-Font') format('svg'),
+    url('fonts/Victors-Pixel-Font.ttf.eot'),
+    url('fonts/Victors-Pixel-Font.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
