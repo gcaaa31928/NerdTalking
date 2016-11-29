@@ -10,9 +10,18 @@ nav.dash {
     line-height: 140px;
 }
 
+.dash-title {
+    width: 385px;
+    margin: 0 auto;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 p.thought {
     font-size: 32px;
-    right: 27%;
+    right: -60px;
     top: 8%;
     width: 130px;
     line-height: 100px;
@@ -71,14 +80,15 @@ p.thought:after {
     text-align: center;
     color: #ffffff;
     float: left;
-    position: absolute;
-    margin-top: 10px;
+    margin: 0px auto;
+    position: relative;
 }
 
 .logo {
-    float: right;
-    position: absolute;
-    text-align: left;
+    height: 82px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
 }
 
 .content {
