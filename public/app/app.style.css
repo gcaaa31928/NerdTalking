@@ -22,7 +22,7 @@ nav.dash {
 p.thought {
     font-size: 32px;
     right: -60px;
-    top: 8%;
+    top: 19%;
     width: 130px;
     line-height: 100px;
     -webkit-border-radius: 108px;
@@ -93,5 +93,5 @@ p.thought:after {
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 300px;
 }
