@@ -3,10 +3,9 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent}  from './app.component';
 import {RouterModule, Routes} from "@angular/router";
-import {DashComponent} from './dash/dash.component';
 
 const appRoutes: Routes = [
-    {path: 'dash', component: DashComponent}
+    // {path: '/', component: AppComponent}
 ];
 
 
@@ -14,8 +13,7 @@ const appRoutes: Routes = [
     imports: [BrowserModule,
         RouterModule.forRoot(appRoutes, {useHash: true})],
     declarations: [
-        AppComponent,
-        DashComponent],
+        AppComponent],
     bootstrap: [AppComponent]
 })
 export class AppModule {

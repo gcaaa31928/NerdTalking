@@ -12,10 +12,7 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var router_1 = require("@angular/router");
-var dash_component_1 = require('./dash/dash.component');
-var appRoutes = [
-    { path: 'dash', component: dash_component_1.DashComponent }
-];
+var appRoutes = [];
 var AppModule = (function () {
     function AppModule() {
     }
@@ -24,8 +21,7 @@ var AppModule = (function () {
             imports: [platform_browser_1.BrowserModule,
                 router_1.RouterModule.forRoot(appRoutes, { useHash: true })],
             declarations: [
-                app_component_1.AppComponent,
-                dash_component_1.DashComponent],
+                app_component_1.AppComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

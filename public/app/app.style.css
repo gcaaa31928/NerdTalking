@@ -80,7 +80,7 @@ p.thought:after {
     text-align: center;
     color: #ffffff;
     float: left;
-    margin: 0px auto;
+    margin: 0 auto;
     position: relative;
     font-family: 'Victors-Pixel-Font';
 }
