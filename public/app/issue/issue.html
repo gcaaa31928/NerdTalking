@@ -1,8 +1,18 @@
 <div class="panel panel-primary">
-    <div class="panel-heading">
+    <div class="issue panel-heading">
         Issue #{{data.id}}
+        <div class="pull-right">
+            {{data.date}}
+        </div>
     </div>
-    <div class="panel-body" *ngFor="let article of data.articles">
-        Panel content
+    <div class="issue panel-body" *ngFor="let article of data.articles">
+        <div class="row">
+            <div class="col-sm-9">{{article.title}}</div>
+            <div class="col-sm-3">
+                <span class="tag label label-default" *ngFor="let tag of article.tags">
+                    {{tag}}
+                </span>
+            </div>
+        </div>
     </div>
 </div>

@@ -10,34 +10,47 @@ declare var skrollr: any;
 export class AppComponent implements AfterViewInit {
     issues = [
         {
-            id: 1,
-            date: 2016/09/09,
-            article: [
+            id: 2,
+            date: "2016/09/14",
+            articles: [
                 {
                     id: 0,
-                    name: "title1",
-                    desc: "desc"
+                    title: "title1",
+                    desc: "desc",
+                    tags: [
+                        "Learning",
+                        "AI"
+                    ]
                 },
                 {
                     id: 1,
-                    name: "title2",
-                    desc: "desc"
+                    title: "title2",
+                    desc: "desc",
+                    tags: [
+                        "Machine Learning",
+                        "Software Architecture"
+                    ]
                 }
             ]
         },
         {
-            id: 2,
-            date: 2016/09/14,
-            article: [
+            id: 1,
+            date: "2016/09/09",
+            articles: [
                 {
                     id: 2,
-                    name: "title3",
-                    desc: "desc"
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
                 },
                 {
                     id: 3,
-                    name: "title4",
-                    desc: "desc"
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
+                    ]
                 }
             ]
         }
