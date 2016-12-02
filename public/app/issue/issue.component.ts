@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input, AfterContentInit} from '@angular/core';
 
 @Component({
     selector: 'issue',
@@ -6,6 +6,13 @@ import {Component} from '@angular/core';
     styleUrls: ['./app/issue/issue.css']
 })
 
-export class IssueComopnent {
+export class IssueComponent {
+    constructor() {
+    }
 
+    @Input() data: {};
+
+    ngAfterContentInit() {
+        console.log(this.data);
+    }
 }

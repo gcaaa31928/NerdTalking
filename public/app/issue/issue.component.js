@@ -9,27 +9,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var platform_browser_1 = require('@angular/platform-browser');
-var app_component_1 = require('./app.component');
-var router_1 = require("@angular/router");
-var issue_component_1 = require("./issue/issue.component");
-var appRoutes = [];
-var AppModule = (function () {
-    function AppModule() {
+var IssueComponent = (function () {
+    function IssueComponent() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule,
-                router_1.RouterModule.forRoot(appRoutes, { useHash: true })],
-            declarations: [
-                app_component_1.AppComponent,
-                issue_component_1.IssueComponent
-            ],
-            bootstrap: [app_component_1.AppComponent]
+    IssueComponent.prototype.ngAfterContentInit = function () {
+        console.log(this.data);
+    };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], IssueComponent.prototype, "data", void 0);
+    IssueComponent = __decorate([
+        core_1.Component({
+            selector: 'issue',
+            templateUrl: './app/issue/issue.html',
+            styleUrls: ['./app/issue/issue.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], IssueComponent);
+    return IssueComponent;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.IssueComponent = IssueComponent;
+//# sourceMappingURL=issue.component.js.map

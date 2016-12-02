@@ -33,15 +33,5 @@
     </div>
 </nav>
 <div class="content container">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            Issue #1
-        </div>
-        <div class="panel-body ">
-            Panel content
-        </div>
-        <div class="panel-body">
-            Panel content
-        </div>
-    </div>
+    <issue [data]="issue" *ngFor="let issue of issues"></issue>
 </div>

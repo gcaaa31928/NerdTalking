@@ -9,9 +9,43 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var issue_component_1 = require('./issue/issue.component');
 var AppComponent = (function () {
     function AppComponent() {
-        this.name = 'Angular';
+        this.issues = [
+            {
+                id: 1,
+                date: 2016 / 09 / 09,
+                article: [
+                    {
+                        id: 0,
+                        name: "title1",
+                        desc: "desc"
+                    },
+                    {
+                        id: 1,
+                        name: "title2",
+                        desc: "desc"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                date: 2016 / 09 / 14,
+                article: [
+                    {
+                        id: 2,
+                        name: "title3",
+                        desc: "desc"
+                    },
+                    {
+                        id: 3,
+                        name: "title4",
+                        desc: "desc"
+                    }
+                ]
+            }
+        ];
     }
     AppComponent.prototype.ngAfterViewInit = function () {
         skrollr.init();
@@ -20,6 +54,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: './app/app.html',
+            directives: [issue_component_1.IssueComponent],
             styleUrls: ['./app/app.style.css']
         }), 
         __metadata('design:paramtypes', [])
