@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var router_1 = require("@angular/router");
 var issue_component_1 = require("./issue/issue.component");
+var about_component_1 = require("./about/about.component");
 var appRoutes = [];
 var AppModule = (function () {
     function AppModule() {
@@ -23,7 +24,8 @@ var AppModule = (function () {
                 router_1.RouterModule.forRoot(appRoutes, { useHash: true })],
             declarations: [
                 app_component_1.AppComponent,
-                issue_component_1.IssueComponent
+                issue_component_1.IssueComponent,
+                about_component_1.AboutComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

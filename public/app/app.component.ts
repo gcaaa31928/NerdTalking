@@ -1,10 +1,11 @@
 import {Component, AfterViewInit} from '@angular/core';
 import {IssueComponent}from './issue/issue.component'
+import {AboutComponent} from "./about/about.component";
 declare var skrollr: any;
 @Component({
     selector: 'my-app',
     templateUrl: './app/app.html',
-    directives: [IssueComponent],
+    directives: [IssueComponent, AboutComponent],
     styleUrls: ['./app/app.style.css']
 })
 export class AppComponent implements AfterViewInit {
@@ -29,6 +30,111 @@ export class AppComponent implements AfterViewInit {
                     tags: [
                         "Machine Learning",
                         "Software Architecture"
+                    ]
+                }
+            ]
+        },
+        {
+            id: 1,
+            date: "2016/09/09",
+            articles: [
+                {
+                    id: 2,
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
+                    ]
+                }
+            ]
+        },
+        {
+            id: 1,
+            date: "2016/09/09",
+            articles: [
+                {
+                    id: 2,
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
+                    ]
+                }
+            ]
+        },
+        {
+            id: 1,
+            date: "2016/09/09",
+            articles: [
+                {
+                    id: 2,
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
+                    ]
+                }
+            ]
+        },
+        {
+            id: 1,
+            date: "2016/09/09",
+            articles: [
+                {
+                    id: 2,
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
+                    ]
+                }
+            ]
+        },
+        {
+            id: 1,
+            date: "2016/09/09",
+            articles: [
+                {
+                    id: 2,
+                    title: "title3",
+                    desc: "desc",
+                    tags: [
+                        "Software Testing"
+                    ]
+                },
+                {
+                    id: 3,
+                    title: "title4",
+                    tags: [
+                        "Current Trends"
                     ]
                 }
             ]

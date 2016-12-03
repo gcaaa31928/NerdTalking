@@ -7,8 +7,8 @@
     </div>
     <div class="issue panel-body" *ngFor="let article of data.articles">
         <div class="row">
-            <div class="col-sm-9">{{article.title}}</div>
-            <div class="col-sm-3">
+            <div class="col-sm-8">{{article.title}}</div>
+            <div class="col-sm-4">
                 <span class="tag label label-default" *ngFor="let tag of article.tags">
                     {{tag}}
                 </span>

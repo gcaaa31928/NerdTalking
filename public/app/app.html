@@ -32,6 +32,17 @@
         </div>
     </div>
 </nav>
-<div class="content container">
-    <issue [data]="issue" *ngFor="let issue of issues"></issue>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9"
+             data-0="margin-top: 300px;"
+             data-100="margin-top: 200px;">
+            <issue [data]="issue" *ngFor="let issue of issues"></issue>
+        </div>
+        <div class="col-sm-3"
+             data-0="margin-top: 300px;"
+             data-100="margin-top: 83px;">
+            <about></about>
+        </div>
+    </div>
 </div>
