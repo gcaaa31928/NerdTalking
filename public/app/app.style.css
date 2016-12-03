@@ -78,3 +78,6 @@ p.thought:after {
   margin: 0 auto;
   position: relative;
   display: block; }
+
+about {
+  position: fixed; }
