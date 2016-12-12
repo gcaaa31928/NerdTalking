@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d43da53-08c0-4318-a05f-57e522700a1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/about/about.service.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/about/about.component.ts" afterPath="$PROJECT_DIR$/public/app/about/about.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/about/about.scss" afterPath="$PROJECT_DIR$/public/app/about/about.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.module.js" afterPath="$PROJECT_DIR$/public/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.module.js.map" afterPath="$PROJECT_DIR$/public/app/app.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.module.ts" afterPath="$PROJECT_DIR$/public/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.component.js" afterPath="$PROJECT_DIR$/public/app/issue/issue.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.component.js.map" afterPath="$PROJECT_DIR$/public/app/issue/issue.component.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.component.ts" afterPath="$PROJECT_DIR$/public/app/issue/issue.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.scss" afterPath="$PROJECT_DIR$/public/app/issue/issue.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/about/about.html" afterPath="$PROJECT_DIR$/public/app/about/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.component.ts" afterPath="$PROJECT_DIR$/public/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="NerdTalking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,77 +68,17 @@
     <favorites_list name="NerdTalking" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63975537">
+    <splitter split-orientation="horizontal" split-proportion="0.52975804">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="20161211134147_create_abouts.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/migrate/20161211134147_create_abouts.rb">
+          <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/about.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="issue.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/issue/issue.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="issue.component.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/app/issue/issue.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.service.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/about/about.service.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+                <state relative-caret-position="529">
+                  <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#0#48#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tsconfig.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -153,10 +86,23 @@
           <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/app.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3657">
-                  <caret line="161" column="9" lean-forward="false" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
+                <state relative-caret-position="230">
+                  <caret line="161" column="6" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#55#0" expanded="true" />
+                    <element signature="e#372#4188#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#44#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -166,83 +112,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="issue.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/issue/issue.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/about/about.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/app/about/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state relative-caret-position="506">
+                  <caret line="22" column="122" lean-forward="false" selection-start-line="22" selection-start-column="122" selection-end-line="22" selection-end-column="122" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/app/app.style.css">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1587">
-                  <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="20161119154924_create_issues.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/migrate/20161119154924_create_issues.rb">
+          <file leaf-file-name="issue.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/app/issue/issue.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gemfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="529">
-                  <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+                <state relative-caret-position="138">
+                  <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -298,11 +192,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/app/app.component.ts" />
         <option value="$PROJECT_DIR$/public/app/app.html" />
         <option value="$PROJECT_DIR$/public/app/app.style.css" />
-        <option value="$PROJECT_DIR$/public/app/about/about.html" />
         <option value="$PROJECT_DIR$/db/migrate/20161211134147_create_abouts.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/about_controller.rb" />
@@ -312,7 +203,10 @@
         <option value="$PROJECT_DIR$/public/app/app.module.ts" />
         <option value="$PROJECT_DIR$/public/app/about/about.service.ts" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.component.ts" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/app/app.component.ts" />
         <option value="$PROJECT_DIR$/public/app/about/about.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/about/about.html" />
       </list>
     </option>
   </component>
@@ -521,7 +415,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
+              <option name="myItemId" value="moment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,33 +433,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
+              <option name="myItemId" value="moment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NerdTalking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NerdTalking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="min" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,7 +451,7 @@
     <property name="last_opened_file_path" value="/usr/lib/node_modules/typescript/lib" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="SearchEverywhereHistoryKey" value="about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;appmodule&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;app.html&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.html&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;inde.&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/index.html&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;issue.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.scss&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;issue.comp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;appmodul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;pack&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;index.&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/index.html&#10;appstyle&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;bowerjson&#9;FILE&#9;file:///home/red4/Works/NerdTalking/bower.json&#10;application.r&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;app&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;application&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;develo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/environments/development.rb&#10;main.js&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/main.js&#10;application.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/config/application.rb&#10;issuecontr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;contr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/controllers/api/articles_controller_test.rb&#10;issuesc&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;article.yml&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/fixtures/articles.yml&#10;issue.yml&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/fixtures/issues.yml&#10;issues&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;routesr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/config/routes.rb&#10;issue.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/models/issue.rb&#10;article.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/models/article.rb" />
+    <property name="SearchEverywhereHistoryKey" value="appmodule&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;app.html&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.html&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;inde.&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/index.html&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;issue.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.scss&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;issue.comp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;appmodul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;pack&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;index.&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/index.html&#10;appstyle&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;bowerjson&#9;FILE&#9;file:///home/red4/Works/NerdTalking/bower.json&#10;application.r&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;app&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;application&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/application.rb&#10;develo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/config/environments/development.rb&#10;main.js&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/main.js&#10;application.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/config/application.rb&#10;issuecontr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;contr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/controllers/api/articles_controller_test.rb&#10;issuesc&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;article.yml&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/fixtures/articles.yml&#10;issue.yml&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/test/fixtures/issues.yml&#10;issues&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb&#10;routesr&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/config/routes.rb&#10;issue.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/models/issue.rb&#10;article.rb&#9;FILE&#9;file:///media/red4/Work/Projects/NerdTalking/app/models/article.rb" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -777,6 +649,12 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -987,7 +865,7 @@
       <workItem from="1481476028659" duration="1971000" />
       <workItem from="1481512663709" duration="3977000" />
       <workItem from="1481521365467" duration="19000" />
-      <workItem from="1481521403125" duration="3265000" />
+      <workItem from="1481521403125" duration="7026000" />
     </task>
     <servers />
   </component>
@@ -1024,7 +902,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184727000" />
+    <option name="totallyTimeSpent" value="188488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1037,7 +915,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25473684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09418283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1529086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1265,13 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/about/about.css" />
     <entry file="file://$PROJECT_DIR$/public/app/app.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1285,16 +1156,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3657">
-          <caret line="161" column="9" lean-forward="false" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,22 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/issue/issue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/about/about.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1404,13 +1249,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
+    <entry file="file://$PROJECT_DIR$/public/app/issue/issue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,10 +1265,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="161" column="6" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#372#4188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/about/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="22" column="122" lean-forward="false" selection-start-line="22" selection-start-column="122" selection-end-line="22" selection-end-column="122" />
           <folding />
         </state>
       </provider>

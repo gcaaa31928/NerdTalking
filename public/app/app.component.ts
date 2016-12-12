@@ -5,7 +5,6 @@ declare var skrollr: any;
 @Component({
     selector: 'my-app',
     templateUrl: './app/app.html',
-    directives: [IssueComponent, AboutComponent],
     styleUrls: ['./app/app.style.css']
 })
 export class AppComponent implements AfterViewInit {
