@@ -15,6 +15,7 @@ var app_component_1 = require('./app.component');
 var router_1 = require("@angular/router");
 var issue_component_1 = require("./issue/issue.component");
 var about_component_1 = require("./about/about.component");
+var about_service_1 = require('./about/about.service');
 var appRoutes = [];
 var AppModule = (function () {
     function AppModule() {
@@ -30,6 +31,9 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 issue_component_1.IssueComponent,
                 about_component_1.AboutComponent
+            ],
+            providers: [
+                about_service_1.AboutService
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

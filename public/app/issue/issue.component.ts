@@ -6,13 +6,13 @@ import {Component, Input, AfterContentInit} from '@angular/core';
     styleUrls: ['./app/issue/issue.css']
 })
 
-export class IssueComponent {
+export class IssueComponent implements AfterContentInit{
+
     constructor() {
     }
 
     @Input() data: {};
 
     ngAfterContentInit() {
-        console.log(this.data);
     }
 }

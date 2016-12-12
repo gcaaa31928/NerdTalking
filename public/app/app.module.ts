@@ -6,6 +6,7 @@ import {AppComponent}  from './app.component';
 import {RouterModule, Routes} from "@angular/router";
 import {IssueComponent} from "./issue/issue.component";
 import {AboutComponent} from "./about/about.component";
+import {AboutService} from './about/about.service';
 
 const appRoutes: Routes = [
     // {path: '/', component: AppComponent}
@@ -22,6 +23,9 @@ const appRoutes: Routes = [
         AppComponent,
         IssueComponent,
         AboutComponent
+    ],
+    providers: [
+        AboutService
     ],
     bootstrap: [AppComponent]
 })

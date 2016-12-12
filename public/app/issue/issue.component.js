@@ -13,7 +13,6 @@ var IssueComponent = (function () {
     function IssueComponent() {
     }
     IssueComponent.prototype.ngAfterContentInit = function () {
-        console.log(this.data);
     };
     __decorate([
         core_1.Input(), 
