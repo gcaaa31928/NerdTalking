@@ -1,6 +1,6 @@
 import {Component, AfterViewInit} from '@angular/core';
-import {IssueComponent}from './issue/issue.component'
-import {AboutComponent} from "./about/about.component";
+import {Router} from "@angular/router";
+
 declare var skrollr: any;
 @Component({
     selector: 'my-app',
@@ -161,10 +161,20 @@ export class AppComponent implements AfterViewInit {
         }
     ];
 
-    constructor() {
+    constructor(private router: Router) {
     }
 
     ngAfterViewInit() {
         skrollr.init();
     }
+
+    goToHome() {
+        let link = ['/'];
+        this.router.navigate(link);
+    }
+
+    goToLatestIssue() {
+
+    }
+
 }
