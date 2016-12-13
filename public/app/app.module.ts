@@ -6,8 +6,10 @@ import {AppComponent}  from './app.component';
 import {RouterModule, Routes} from "@angular/router";
 import {IssueComponent} from "./issue/issue.component";
 import {AboutComponent} from "./about/about.component";
-import {AboutService} from './about/about.service';
+import {AboutService} from './services/about.service';
 import {DashComponent} from "./dash/dash.component";
+import {IssueDetailComponent} from "./issue-detail/issue-detail.component";
+import {IssueService} from "./services/issue.service";
 
 const appRoutes: Routes = [
     {
@@ -17,6 +19,9 @@ const appRoutes: Routes = [
     },
     {
         path: 'home', component: DashComponent
+    },
+    {
+        path:'issues/:id', component: IssueDetailComponent
     }
 ];
 
@@ -31,10 +36,12 @@ const appRoutes: Routes = [
         AppComponent,
         DashComponent,
         IssueComponent,
+        IssueDetailComponent,
         AboutComponent
     ],
     providers: [
-        AboutService
+        AboutService,
+        IssueService
     ],
     bootstrap: [AppComponent]
 })

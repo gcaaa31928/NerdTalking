@@ -1,5 +1,5 @@
 <div class="panel panel-primary">
-    <div class="issue panel-heading">
+    <div class="issue panel-heading" [routerLink]="['/issues', data.id]">
         Issue #{{data.id}}
         <div class="pull-right">
             {{data.date}}
