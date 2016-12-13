@@ -34,12 +34,12 @@
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-sm-8"
+        <div class="col-sm-8 col-md-10"
              data-0="margin-top: 300px;"
              data-100="margin-top: 200px;">
-            <issue [data]="issue" *ngFor="let issue of issues"></issue>
+            <router-outlet></router-outlet>
         </div>
-        <div class="col-sm-4"
+        <div class="col-sm-4 col-md-2"
              data-0="margin-top: 300px;"
              data-100="margin-top: 83px;">
             <about></about>

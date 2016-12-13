@@ -7,9 +7,17 @@ import {RouterModule, Routes} from "@angular/router";
 import {IssueComponent} from "./issue/issue.component";
 import {AboutComponent} from "./about/about.component";
 import {AboutService} from './about/about.service';
+import {DashComponent} from "./dash/dash.component";
 
 const appRoutes: Routes = [
-    // {path: '/', component: AppComponent}
+    {
+        path: '',
+        redirectTo: 'home',
+        pathMatch: 'full'
+    },
+    {
+        path: 'home', component: DashComponent
+    }
 ];
 
 
@@ -21,6 +29,7 @@ const appRoutes: Routes = [
     ],
     declarations: [
         AppComponent,
+        DashComponent,
         IssueComponent,
         AboutComponent
     ],
