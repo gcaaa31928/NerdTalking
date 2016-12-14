@@ -1,8 +1,13 @@
 <div class="page-header">
     <h3><b>{{data.name}}</b> <i>#{{data.id}}</i></h3>
 </div>
-<div class="panel panel-info" *ngIf="data.articles">
-    <div class="issue-detail panel-body" *ngFor="let article of data.articles">
-        {{article.title}}
+<div class="page-body" *ngIf="data.articles">
+    <div class="panel panel-info" *ngFor="let article of data.articles">
+        <div class="issue-detail panel-body">
+            <p class="lead">{{article.title}}</p>
+            <p>
+                {{article.desc}}
+            </p>
+        </div>
     </div>
 </div>

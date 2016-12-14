@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d43da53-08c0-4318-a05f-57e522700a1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/issues_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/issues_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" afterPath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.html" afterPath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" afterPath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/services/issue.service.ts" afterPath="$PROJECT_DIR$/public/app/services/issue.service.ts" />
     </list>
     <ignored path="NerdTalking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +65,7 @@
     <favorites_list name="NerdTalking" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3933518">
+    <splitter split-orientation="horizontal" split-proportion="0.55013853">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="false">
@@ -95,11 +90,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="issue-detail.component.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="issue-detail.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+                <state relative-caret-position="172">
+                  <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -115,11 +110,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="issue-detail.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="issue-detail.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                <state relative-caret-position="207">
+                  <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="10" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -164,8 +159,8 @@
           <file leaf-file-name="issue-detail.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -249,8 +244,8 @@
         <option value="$PROJECT_DIR$/app/controllers/api/issues_controller.rb" />
         <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" />
         <option value="$PROJECT_DIR$/public/app/services/issue.service.ts" />
-        <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" />
         <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.html" />
+        <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" />
       </list>
     </option>
   </component>
@@ -315,7 +310,7 @@
     <property name="last_opened_file_path" value="/usr/lib/node_modules/typescript/lib" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="SearchEverywhereHistoryKey" value="issuedeta&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;ISSUESCS&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;issuedetail&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;issuedetail.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.html&#10;issuecontr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/api/issues_controller.rb&#10;seed.r&#9;FILE&#9;file:///home/red4/Works/NerdTalking/db/seeds.rb&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;appmo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;seeds&#9;FILE&#9;file:///home/red/Works/NerdTalking/db/seeds.rb&#10;aboutcomp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.component.ts&#10;appmodule&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecompon&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;app.modu&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecontrollertest&#9;FILE&#9;file:///home/red/Works/NerdTalking/test/controllers/api/issues_controller_test.rb&#10;routesr&#9;FILE&#9;file:///home/red/Works/NerdTalking/config/routes.rb&#10;issuecontrol&#9;null&#9;null&#10;issuedetail.ts&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;issue.scs&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;app.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.style.css&#10;app.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;gitignore&#9;FILE&#9;file:///home/red/Works/NerdTalking/.gitignore&#10;app.component&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;app.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.html&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;ap.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issue.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.css&#10;dashhtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/dash/dash.html&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;inde.&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html" />
+    <property name="SearchEverywhereHistoryKey" value="issuedetail&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.scss&#10;issuedeta&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;ISSUESCS&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;issuedetail.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.html&#10;issuecontr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/api/issues_controller.rb&#10;seed.r&#9;FILE&#9;file:///home/red4/Works/NerdTalking/db/seeds.rb&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;appmo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;seeds&#9;FILE&#9;file:///home/red/Works/NerdTalking/db/seeds.rb&#10;aboutcomp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.component.ts&#10;appmodule&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecompon&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;app.modu&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecontrollertest&#9;FILE&#9;file:///home/red/Works/NerdTalking/test/controllers/api/issues_controller_test.rb&#10;routesr&#9;FILE&#9;file:///home/red/Works/NerdTalking/config/routes.rb&#10;issuecontrol&#9;null&#9;null&#10;issuedetail.ts&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;issue.scs&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;app.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.style.css&#10;app.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;gitignore&#9;FILE&#9;file:///home/red/Works/NerdTalking/.gitignore&#10;app.component&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;app.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.html&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;ap.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issue.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.css&#10;dashhtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/dash/dash.html&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;inde.&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -730,7 +725,7 @@
       <workItem from="1481647778492" duration="1178000" />
       <workItem from="1481686052649" duration="549000" />
       <workItem from="1481687583647" duration="1833000" />
-      <workItem from="1481691265019" duration="3524000" />
+      <workItem from="1481691265019" duration="5752000" />
     </task>
     <servers />
   </component>
@@ -767,7 +762,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210424000" />
+    <option name="totallyTimeSpent" value="212652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1165,26 +1160,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="172">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="115">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="10" selection-end-column="32" />
           <folding />
         </state>
       </provider>
