@@ -16,3 +16,4 @@ Article.create(title: 'Article5', desc: 'Desc5', url: 'Url5', date: Date.current
 Article.create(title: 'Article6', desc: 'Desc6', url: 'Url6', date: Date.current, tags: ['learning', 'AI'], issue_id: 3)
 Article.create(title: 'Article7', desc: 'Desc7', url: 'Url7', date: Date.current, tags: ['learning', 'AI'], issue_id: 3)
 Article.create(title: 'Article8', desc: 'Desc8', url: 'Url8', date: Date.current, tags: ['learning', 'AI'], issue_id: 3)
+

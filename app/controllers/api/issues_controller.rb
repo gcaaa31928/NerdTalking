@@ -34,16 +34,19 @@ class Api::IssuesController < ApplicationController
         issues = Issue.all
         render HttpStatusCode.ok(issues.as_json(
             include: {articles: {
-                except: [:created_at, :updated_at]
+                except: [:created_at, :updated_at, :desc]
             }}, except: [:created_at, :updated_at]))
     end
 
     def show
         permitted = params.permit(:id)
         issue = Issue.find(permitted[:id].to_i)
-        render HttpStatusCode.ok(issue.as_json(except: [:created_at, :updated_at]))
+        render HttpStatusCode.ok(issue.as_json(
+            include: {articles: {
+                except: [:created_at, :updated_at]
+            }}, except: [:created_at, :updated_at]
+        ))
     end
-
 
 
     def valid!

@@ -11,7 +11,7 @@ export class IssueService {
         return this.http.get(`${this.issuesUrl}/${id}`)
             .toPromise()
             .then(response => {
-                return response.json();
+                return response.json().data;
             })
             .catch(this.handleError);
 

@@ -14,7 +14,9 @@ export class IssueDetailComponent implements OnInit {
                 private issueService: IssueService) {
     }
 
-    data: {};
+    data: {} = {
+        id: null
+    };
 
     ngOnInit() {
         this.route.params.forEach((params: Params) => {
