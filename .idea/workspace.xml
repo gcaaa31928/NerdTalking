@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d43da53-08c0-4318-a05f-57e522700a1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/issue.service.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/app/about/about.service.ts" afterPath="$PROJECT_DIR$/public/app/services/about.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NerdTalking.iml" afterPath="$PROJECT_DIR$/.idea/NerdTalking.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/app.module.ts" afterPath="$PROJECT_DIR$/public/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" afterPath="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.html" afterPath="$PROJECT_DIR$/public/app/issue/issue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/issue/issue.scss" afterPath="$PROJECT_DIR$/public/app/issue/issue.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/about/about.component.ts" afterPath="$PROJECT_DIR$/public/app/about/about.component.ts" />
     </list>
     <ignored path="NerdTalking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,36 +26,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_if_wrong_access_token__NerdTalking.coverage" NAME="test_cannot_edit_article_if_wrong_access_token: NerdTalking Coverage Results" MODIFIED="1479106149203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_get_issues__NerdTalking.coverage" NAME="test_get_issues: NerdTalking Coverage Results" MODIFIED="1479622224032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_create_issue__NerdTalking.coverage" NAME="test_create_issue: NerdTalking Coverage Results" MODIFIED="1479619000302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test__NerdTalking.coverage" NAME="test: NerdTalking Coverage Results" MODIFIED="1479628896632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_content__NerdTalking.coverage" NAME="test_cannot_create_article_if_content: NerdTalking Coverage Results" MODIFIED="1479101287447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_issues_without_id__NerdTalking.coverage" NAME="test_cannot_edit_issues_without_id: NerdTalking Coverage Results" MODIFIED="1479628744278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@db_create__NerdTalking.coverage" NAME="db:create: NerdTalking Coverage Results" MODIFIED="1479127229417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_delete_article__NerdTalking.coverage" NAME="test_delete_article: NerdTalking Coverage Results" MODIFIED="1479575305369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_can_create_article__NerdTalking.coverage" NAME="test_can_create_article: NerdTalking Coverage Results" MODIFIED="1479098700226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_delete_issue__NerdTalking.coverage" NAME="test_delete_issue: NerdTalking Coverage Results" MODIFIED="1479628822247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_can_edit_issues__NerdTalking.coverage" NAME="test_can_edit_issues: NerdTalking Coverage Results" MODIFIED="1479628737174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_issue_if_have_no_access_key__NerdTalking.coverage" NAME="test_cannot_create_issue_if_have_no_access_key: NerdTalking Coverage Results" MODIFIED="1479618429342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@db_migrate__NerdTalking.coverage" NAME="db:migrate: NerdTalking Coverage Results" MODIFIED="1481522473999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_show_article__NerdTalking.coverage" NAME="test_show_article: NerdTalking Coverage Results" MODIFIED="1479582034837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_can_edit_article__NerdTalking.coverage" NAME="test_can_edit_article: NerdTalking Coverage Results" MODIFIED="1479492855561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_delete_issue_if_wrong_token__NerdTalking.coverage" NAME="test_cannot_delete_issue_if_wrong_token: NerdTalking Coverage Results" MODIFIED="1479628792101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_have_no_access_key__NerdTalking.coverage" NAME="test_cannot_create_article_if_have_no_access_key: NerdTalking Coverage Results" MODIFIED="1479551139152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@routes__NerdTalking.coverage" NAME="routes: NerdTalking Coverage Results" MODIFIED="1479620215074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
     <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_delete_article_if_wrong_token__NerdTalking.coverage" NAME="test_cannot_delete_article_if_wrong_token: NerdTalking Coverage Results" MODIFIED="1479575310640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_create_issue__NerdTalking.coverage" NAME="test_create_issue: NerdTalking Coverage Results" MODIFIED="1479619000302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_get_article__NerdTalking.coverage" NAME="test_get_article: NerdTalking Coverage Results" MODIFIED="1479105943443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
     <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_without_access_token__NerdTalking.coverage" NAME="test_cannot_edit_article_without_access_token: NerdTalking Coverage Results" MODIFIED="1479581685150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
     <SUITE FILE_PATH="coverage/NerdTalking@test_create_article__NerdTalking.coverage" NAME="test_create_article: NerdTalking Coverage Results" MODIFIED="1479491356106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_show_issue__NerdTalking.coverage" NAME="test_show_issue: NerdTalking Coverage Results" MODIFIED="1479628885104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_without_id__NerdTalking.coverage" NAME="test_cannot_edit_article_without_id: NerdTalking Coverage Results" MODIFIED="1479555681139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@Development__NerdTalking.coverage" NAME="Development: NerdTalking Coverage Results" MODIFIED="1481600997599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@Run_test__Api__IssuesControllerTest___NerdTalking.coverage" NAME="Run test 'Api::IssuesControllerTest': NerdTalking Coverage Results" MODIFIED="1479628889661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_get_article__NerdTalking.coverage" NAME="test_get_article: NerdTalking Coverage Results" MODIFIED="1479105943443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_db__NerdTalking.coverage" NAME="test:db: NerdTalking Coverage Results" MODIFIED="1479133742659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@Run_test__Api__ArticlesControllerTest___NerdTalking.coverage" NAME="Run test 'Api::ArticlesControllerTest': NerdTalking Coverage Results" MODIFIED="1479621054825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_have_no_access_key__NerdTalking.coverage" NAME="test_cannot_create_article_if_have_no_access_key: NerdTalking Coverage Results" MODIFIED="1479551139152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_wrong_token__NerdTalking.coverage" NAME="test_cannot_create_article_if_wrong_token: NerdTalking Coverage Results" MODIFIED="1479581605316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@db_create__NerdTalking.coverage" NAME="db:create: NerdTalking Coverage Results" MODIFIED="1479127229417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_if_wrong_access_token__NerdTalking.coverage" NAME="test_cannot_edit_article_if_wrong_access_token: NerdTalking Coverage Results" MODIFIED="1479106149203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_issues_without_id__NerdTalking.coverage" NAME="test_cannot_edit_issues_without_id: NerdTalking Coverage Results" MODIFIED="1479628744278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
     <SUITE FILE_PATH="coverage/NerdTalking@test_edit_article__NerdTalking.coverage" NAME="test_edit_article: NerdTalking Coverage Results" MODIFIED="1479106240228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
-    <SUITE FILE_PATH="coverage/NerdTalking@routes__NerdTalking.coverage" NAME="routes: NerdTalking Coverage Results" MODIFIED="1479620215074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@db_migrate__NerdTalking.coverage" NAME="db:migrate: NerdTalking Coverage Results" MODIFIED="1481522473999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_content__NerdTalking.coverage" NAME="test_cannot_create_article_if_content: NerdTalking Coverage Results" MODIFIED="1479101287447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_db__NerdTalking.coverage" NAME="test:db: NerdTalking Coverage Results" MODIFIED="1479133742659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_delete_article__NerdTalking.coverage" NAME="test_delete_article: NerdTalking Coverage Results" MODIFIED="1479575305369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_issue_if_have_no_access_key__NerdTalking.coverage" NAME="test_cannot_create_issue_if_have_no_access_key: NerdTalking Coverage Results" MODIFIED="1479618429342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@Run_test__Api__ArticlesControllerTest___NerdTalking.coverage" NAME="Run test 'Api::ArticlesControllerTest': NerdTalking Coverage Results" MODIFIED="1479621054825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_can_edit_article__NerdTalking.coverage" NAME="test_can_edit_article: NerdTalking Coverage Results" MODIFIED="1479492855561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_get_issues__NerdTalking.coverage" NAME="test_get_issues: NerdTalking Coverage Results" MODIFIED="1479622224032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@Development__NerdTalking.coverage" NAME="Development: NerdTalking Coverage Results" MODIFIED="1481647779147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_create_article_if_wrong_token__NerdTalking.coverage" NAME="test_cannot_create_article_if_wrong_token: NerdTalking Coverage Results" MODIFIED="1479581605316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_show_issue__NerdTalking.coverage" NAME="test_show_issue: NerdTalking Coverage Results" MODIFIED="1479628885104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_can_create_article__NerdTalking.coverage" NAME="test_can_create_article: NerdTalking Coverage Results" MODIFIED="1479098700226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@Run_test__Api__IssuesControllerTest___NerdTalking.coverage" NAME="Run test 'Api::IssuesControllerTest': NerdTalking Coverage Results" MODIFIED="1479628889661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_show_article__NerdTalking.coverage" NAME="test_show_article: NerdTalking Coverage Results" MODIFIED="1479582034837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_can_edit_issues__NerdTalking.coverage" NAME="test_can_edit_issues: NerdTalking Coverage Results" MODIFIED="1479628737174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@db_seed__NerdTalking.coverage" NAME="db:seed: NerdTalking Coverage Results" MODIFIED="1481648318312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_without_id__NerdTalking.coverage" NAME="test_cannot_edit_article_without_id: NerdTalking Coverage Results" MODIFIED="1479555681139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_delete_issue__NerdTalking.coverage" NAME="test_delete_issue: NerdTalking Coverage Results" MODIFIED="1479628822247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_delete_issue_if_wrong_token__NerdTalking.coverage" NAME="test_cannot_delete_issue_if_wrong_token: NerdTalking Coverage Results" MODIFIED="1479628792101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
+    <SUITE FILE_PATH="coverage/NerdTalking@test__NerdTalking.coverage" NAME="test: NerdTalking Coverage Results" MODIFIED="1479628896632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
     <SUITE FILE_PATH="coverage/NerdTalking@test_cannot_edit_article_if_no_access_token__NerdTalking.coverage" NAME="test_cannot_edit_article_if_no_access_token: NerdTalking Coverage Results" MODIFIED="1479106110933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="NerdTalking" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -69,15 +67,17 @@
     <favorites_list name="NerdTalking" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41121495">
+    <splitter split-orientation="horizontal" split-proportion="0.120204605">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="about.component.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-                  <folding />
+                <state relative-caret-position="299">
+                  <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#0#48#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -85,18 +85,28 @@
           <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="issue-detail.component.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="issue-detail.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="299">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="issue-detail.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -105,8 +115,8 @@
           <file leaf-file-name="about.service.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/services/about.service.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+                <state relative-caret-position="161">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -131,7 +141,7 @@
           <file leaf-file-name="issue.service.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/app/services/issue.service.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
+                <state relative-caret-position="276">
                   <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
@@ -153,8 +163,8 @@
           <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/db/seeds.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="276">
+                  <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -179,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20161118162325_set_default_on_tags_of_article.rb" />
         <option value="$PROJECT_DIR$/app/errors/forbidden_error.rb" />
         <option value="$PROJECT_DIR$/app/errors/errors.rb" />
         <option value="$PROJECT_DIR$/lib/errors/base.rb" />
@@ -216,7 +225,6 @@
         <option value="$PROJECT_DIR$/public/app/about/about.service.ts" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.component.ts" />
         <option value="$PROJECT_DIR$/public/app/about/about.html" />
-        <option value="$PROJECT_DIR$/public/app/about/about.component.ts" />
         <option value="$PROJECT_DIR$/public/app/app.html" />
         <option value="$PROJECT_DIR$/public/app/dash/dash.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -225,11 +233,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/app/dash/dash.html" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.scss" />
-        <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.html" />
         <option value="$PROJECT_DIR$/public/app/app.module.ts" />
         <option value="$PROJECT_DIR$/public/app/services/issue.service.ts" />
         <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts" />
+        <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss" />
+        <option value="$PROJECT_DIR$/public/app/about/about.component.ts" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -250,10 +260,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
+    <option name="x" value="1345" />
     <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="width" value="1615" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,6 +300,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -502,32 +513,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about.scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NerdTalking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NerdTalking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -588,7 +573,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -596,7 +580,7 @@
     <property name="last_opened_file_path" value="/usr/lib/node_modules/typescript/lib" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="SearchEverywhereHistoryKey" value="seeds&#9;FILE&#9;file:///home/red/Works/NerdTalking/db/seeds.rb&#10;issuecontr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/api/issues_controller.rb&#10;aboutcomp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.component.ts&#10;appmodule&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecompon&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;app.modu&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecontrollertest&#9;FILE&#9;file:///home/red/Works/NerdTalking/test/controllers/api/issues_controller_test.rb&#10;routesr&#9;FILE&#9;file:///home/red/Works/NerdTalking/config/routes.rb&#10;issuecontrol&#9;null&#9;null&#10;issuedeta&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.html&#10;issuedetail.ts&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;issue.scs&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;app.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.style.css&#10;app.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;gitignore&#9;FILE&#9;file:///home/red/Works/NerdTalking/.gitignore&#10;app.component&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;app.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.html&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;ap.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issue.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.css&#10;dashhtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/dash/dash.html&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;inde.&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;issue.comp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;appmodul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;pack&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;index.&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/index.html&#10;appstyle&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css" />
+    <property name="SearchEverywhereHistoryKey" value="seed.r&#9;FILE&#9;file:///home/red4/Works/NerdTalking/db/seeds.rb&#10;aboutcompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.component.ts&#10;appmo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;seeds&#9;FILE&#9;file:///home/red/Works/NerdTalking/db/seeds.rb&#10;issuecontr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/api/issues_controller.rb&#10;aboutcomp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.component.ts&#10;appmodule&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecompon&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;app.modu&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issuecontrollertest&#9;FILE&#9;file:///home/red/Works/NerdTalking/test/controllers/api/issues_controller_test.rb&#10;routesr&#9;FILE&#9;file:///home/red/Works/NerdTalking/config/routes.rb&#10;issuecontrol&#9;null&#9;null&#10;issuedeta&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.html&#10;issuedetail.ts&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue-detail/issue-detail.component.ts&#10;issue.scs&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.scss&#10;app.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.style.css&#10;app.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;gitignore&#9;FILE&#9;file:///home/red/Works/NerdTalking/.gitignore&#10;app.component&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;app.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.html&#10;index.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;ap.modul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;issue.css&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.css&#10;dashhtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/dash/dash.html&#10;app.com&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.component.ts&#10;inde.&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/index.html&#10;issuehtml&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;about.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/about/about.html&#10;about_contr&#9;FILE&#9;file:///home/red/Works/NerdTalking/app/controllers/about_controller.rb&#10;package.json&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;package&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json&#10;gemfile&#9;FILE&#9;file:///home/red4/Works/NerdTalking/Gemfile&#10;app.cs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;about.scs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.compone&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;app.style&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.style.css&#10;aboutscs&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/about/about.scss&#10;app.mo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.module.ts&#10;issuecompo&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;app.comp&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;.git&#9;FILE&#9;file:///home/red4/Works/NerdTalking/.gitignore&#10;appcom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/app.component.ts&#10;issuecompots&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compon&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.js&#10;issuecom&#9;FILE&#9;file:///home/red4/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.compo&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;issue.html&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.html&#10;issue.comp&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/issue/issue.component.ts&#10;appmodul&#9;FILE&#9;file:///home/red/Works/NerdTalking/public/app/app.module.ts&#10;pack&#9;FILE&#9;file:///home/red/Works/NerdTalking/package.json" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -617,37 +601,7 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: NerdTalking">
-    <configuration default="false" name="test_cannot_delete_issue_if_wrong_token: NerdTalking" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="NerdTalking" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/api/issues_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_cannot_delete_issue_if_wrong_token" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.db:seed: NerdTalking">
     <configuration default="false" name="test_delete_issue: NerdTalking" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="NerdTalking" />
@@ -756,6 +710,29 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:seed: NerdTalking" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="NerdTalking" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:seed" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -952,19 +929,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: NerdTalking" />
       <item index="2" class="java.lang.String" itemvalue="Rake.test: NerdTalking" />
       <item index="3" class="java.lang.String" itemvalue="Rake.spec: NerdTalking" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_cannot_delete_issue_if_wrong_token: NerdTalking" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_delete_issue: NerdTalking" />
-      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_show_issue: NerdTalking" />
-      <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'Api::IssuesControllerTest': NerdTalking" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:migrate: NerdTalking" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_delete_issue: NerdTalking" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_show_issue: NerdTalking" />
+      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'Api::IssuesControllerTest': NerdTalking" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate: NerdTalking" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.db:seed: NerdTalking" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: NerdTalking" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'Api::IssuesControllerTest': NerdTalking" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_show_issue: NerdTalking" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_delete_issue: NerdTalking" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_cannot_delete_issue_if_wrong_token: NerdTalking" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:seed: NerdTalking" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: NerdTalking" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'Api::IssuesControllerTest': NerdTalking" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_show_issue: NerdTalking" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_delete_issue: NerdTalking" />
       </list>
     </recent_temporary>
   </component>
@@ -1015,6 +992,7 @@
       <workItem from="1481565154045" duration="2071000" />
       <workItem from="1481600996471" duration="82000" />
       <workItem from="1481601322065" duration="10887000" />
+      <workItem from="1481647778492" duration="1178000" />
     </task>
     <servers />
   </component>
@@ -1051,20 +1029,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203340000" />
+    <option name="totallyTimeSpent" value="204518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1345" y="-4" width="1615" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1700831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30670926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25368422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25326088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1075,6 +1052,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1112,8 +1090,6 @@
         <option value="$PROJECT_DIR$/public/app/about/about.component.js.map" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.component.js" />
         <option value="$PROJECT_DIR$/public/app/issue/issue.component.js.map" />
-        <option value="$PROJECT_DIR$/public/app/about/about.service.js" />
-        <option value="$PROJECT_DIR$/public/app/about/about.service.js.map" />
         <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.js.map" />
         <option value="$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.js" />
         <option value="$PROJECT_DIR$/public/app/dash/dash.component.js" />
@@ -1142,16 +1118,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/app/app.component.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/app.routes.js" />
     <entry file="file://$PROJECT_DIR$/public/app/app.routes.js.map" />
     <entry file="file://$PROJECT_DIR$/public/images/logo.png">
@@ -1330,8 +1296,7 @@
         <state relative-caret-position="414">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <marker date="1481603969470" expanded="true" signature="288:515" ph="{...}" />
+            <element signature="e#0#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1362,14 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/issue/issue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1390,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,7 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1434,43 +1388,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/services/about.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/services/issue.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="276">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -1486,10 +1406,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/issue-detail/issue-detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/about/about.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/services/about.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/about/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>

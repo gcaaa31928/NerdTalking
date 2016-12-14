@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {AboutService} from  './about.service'
+import {AboutService} from "../services/about.service";
+
 declare var moment: any;
 @Component({
     selector: 'about',
