@@ -48,6 +48,15 @@ class Api::IssuesController < ApplicationController
         ))
     end
 
+    def latest
+        issue = Issue.first
+        render HttpStatusCode.ok(issue.as_json(
+            include: {articles: {
+                except: [:created_at, :updated_at]
+            }}, except: [:created_at, :updated_at]
+        ))
+    end
+
 
     def valid!
         require_headers

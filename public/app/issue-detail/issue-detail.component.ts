@@ -27,7 +27,12 @@ export class IssueDetailComponent implements OnInit {
                         this.data = data;
                         console.log(data);
                     })
-
+            }else {
+                this.issueService.getLatestIssue()
+                    .then((data)=> {
+                        this.data = data;
+                        console.log(data);
+                    })
             }
         })
     }

@@ -2,6 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {AboutService} from "../services/about.service";
 
 declare var moment: any;
+moment.locale('zh-tw');
+
 @Component({
     selector: 'about',
     templateUrl: './app/about/about.html',

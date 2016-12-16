@@ -14,11 +14,11 @@ import {IssueService} from "./services/issue.service";
 const appRoutes: Routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: 'latest_issues',
         pathMatch: 'full'
     },
     {
-        path: 'home', component: DashComponent
+        path: 'latest_issues', component: IssueDetailComponent
     },
     {
         path:'issues/:id', component: IssueDetailComponent
