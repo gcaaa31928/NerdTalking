@@ -1,9 +1,9 @@
 <div class="page-header">
     <h3 class="head"><b>{{data.name}}</b> <i>#{{data.id}}</i></h3>
 </div>
-<div class="page-body" *ngIf="data.articles">
-    <div class="panel panel-info" *ngFor="let article of data.articles">
-        <div class="issue-detail panel-body">
+<div class="articles" *ngIf="data.articles">
+    <div class="article-content" *ngFor="let article of data.articles">
+        <div class="article">
             <p class="lead">{{article.title}}</p>
             <p>
                 {{article.desc}}
