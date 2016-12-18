@@ -1,7 +1,115 @@
 {
   "MiniTest": {
     "coverage": {
-      "/media/red4/Work/Projects/NerdTalking/test/controllers/api/issues_controller_test.rb": [
+      "/home/red/Works/NerdTalking/test/controllers/api/articles_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/red/Works/NerdTalking/test/controllers/api/issues_controller_test.rb": [
         1,
         null,
         1,
@@ -98,7 +206,18 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/test/models/admin_test.rb": [
+      "/home/red/Works/NerdTalking/test/controllers/views_controller_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/red/Works/NerdTalking/test/models/about_test.rb": [
         1,
         null,
         1,
@@ -107,7 +226,7 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/test/models/article_test.rb": [
+      "/home/red/Works/NerdTalking/test/models/admin_test.rb": [
         1,
         null,
         1,
@@ -116,7 +235,7 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/test/models/issue_test.rb": [
+      "/home/red/Works/NerdTalking/test/models/article_test.rb": [
         1,
         null,
         1,
@@ -125,49 +244,62 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/models/admin.rb": [
-        1,
+      "/home/red/Works/NerdTalking/test/models/issue_test.rb": [
         1,
         null,
         1,
-        1,
-        1,
-        0,
         null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
         null,
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
-      "/media/red4/Work/Projects/NerdTalking/app/models/article.rb": [
-        1,
-        18,
-        1,
-        null
-      ],
-      "/media/red4/Work/Projects/NerdTalking/app/models/issue.rb": [
+      "/home/red/Works/NerdTalking/app/models/issue.rb": [
         1,
         1,
         13,
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/controllers/api/issues_controller.rb": [
+      "/home/red/Works/NerdTalking/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/models/about.rb": [
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/models/article.rb": [
+        1,
+        21,
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/models/admin.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/controllers/api/issues_controller.rb": [
         1,
         1,
         3,
@@ -216,6 +348,18 @@
         null,
         null,
         null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         9,
         9,
@@ -235,17 +379,17 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/controllers/application_controller.rb": [
+      "/home/red/Works/NerdTalking/app/controllers/application_controller.rb": [
         1,
         1,
         null,
         1,
         null,
         1,
-        22,
-        22,
-        22,
-        22,
+        23,
+        23,
+        23,
+        23,
         null,
         null,
         1,
@@ -266,19 +410,39 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/helpers/application_helper.rb": [
+      "/home/red/Works/NerdTalking/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/helpers/api/articles_helper.rb": [
+      "/home/red/Works/NerdTalking/app/helpers/about_helper.rb": [
         1,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/helpers/issues_helper.rb": [
+      "/home/red/Works/NerdTalking/app/helpers/api/articles_helper.rb": [
         1,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/app/tools/http_status_code.rb": [
+      "/home/red/Works/NerdTalking/app/helpers/issues_helper.rb": [
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/helpers/views_helper.rb": [
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/lib/errors.rb": [
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/tools/http_status_code.rb": [
         null,
         1,
         null,
@@ -310,19 +474,7 @@
         null,
         null
       ],
-      "/media/red4/Work/Projects/NerdTalking/lib/errors.rb": [
-        1,
-        1,
-        1,
-        1,
-        10,
-        10,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/media/red4/Work/Projects/NerdTalking/app/controllers/api/articles_controller.rb": [
+      "/home/red/Works/NerdTalking/app/controllers/api/articles_controller.rb": [
         1,
         1,
         3,
@@ -390,15 +542,21 @@
         null,
         1,
         9,
+        null,
+        null
+      ],
+      "/home/red/Works/NerdTalking/app/controllers/views_controller.rb": [
+        1,
+        1,
         null,
         null
       ]
     },
-    "timestamp": 1479628897
+    "timestamp": 1482031772
   },
   "Unit Tests": {
     "coverage": {
     },
-    "timestamp": 1479628891
+    "timestamp": 1482031760
   }
 }

@@ -21,12 +21,18 @@ export class AboutComponent implements OnInit {
 
     lastCommit: {};
 
+    hottestArticles: {};
+
     ngOnInit() {
         this.aboutService.getLastCommits()
             .then(data => {
-                console.log(data);
                 this.lastCommit = data;
                 this.lastCommit['author']['fromNow'] = moment(data['author']['date']).fromNow();
+            });
+        this.aboutService.getHottestArticles()
+            .then(data => {
+                this.hottestArticles = data;
+                console.log(this.hottestArticles);
             });
     }
 

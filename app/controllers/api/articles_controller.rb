@@ -48,6 +48,11 @@ class Api::ArticlesController < ApplicationController
         render HttpStatusCode.ok(article.as_json(except: [:created_at, :updated_at]))
     end
 
+    def hottest
+        articles = Article.order(score: :desc).limit(5)
+        render HttpStatusCode.ok(articles.as_json(except: [:created_at, :updated_at]))
+    end
+
 
     def valid!
         require_headers

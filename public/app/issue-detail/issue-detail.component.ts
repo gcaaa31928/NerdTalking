@@ -25,13 +25,11 @@ export class IssueDetailComponent implements OnInit {
                 this.issueService.getIssue(id)
                     .then((data)=> {
                         this.data = data;
-                        console.log(data);
                     })
             }else {
                 this.issueService.getLatestIssue()
                     .then((data)=> {
                         this.data = data;
-                        console.log(data);
                     })
             }
         })
