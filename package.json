@@ -11,6 +11,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "sass:w": "node-sass -wr public -o public/",
+    "sass": "node-sass public -o public/",
     "serve": "concurrently 'npm run tsc:w' 'npm run sass:w' -n \"Typescript,Sass\" -p \"name\""
   },
   "repository": {
