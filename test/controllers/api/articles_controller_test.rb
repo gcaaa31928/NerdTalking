@@ -103,4 +103,5 @@ class Api::ArticlesControllerTest < ActionDispatch::IntegrationTest
         assert_equal(article['date'], expected_article.date.to_s)
     end
 
+
 end

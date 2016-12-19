@@ -8,25 +8,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
+var core_1 = require('@angular/core');
 var IssueComponent = (function () {
     function IssueComponent() {
     }
     IssueComponent.prototype.ngAfterContentInit = function () {
     };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], IssueComponent.prototype, "data", void 0);
+    IssueComponent = __decorate([
+        core_1.Component({
+            selector: 'issue',
+            templateUrl: './app/issue/issue.html',
+            styleUrls: ['./app/issue/issue.css']
+        }), 
+        __metadata('design:paramtypes', [])
+    ], IssueComponent);
     return IssueComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", Object)
-], IssueComponent.prototype, "data", void 0);
-IssueComponent = __decorate([
-    core_1.Component({
-        selector: 'issue',
-        templateUrl: './app/issue/issue.html',
-        styleUrls: ['./app/issue/issue.css']
-    }),
-    __metadata("design:paramtypes", [])
-], IssueComponent);
 exports.IssueComponent = IssueComponent;
 //# sourceMappingURL=issue.component.js.map

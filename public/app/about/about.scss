@@ -4,7 +4,14 @@
     margin: 20px;
 }
 
-.about {
-    .article {
-    }
+.about .articles .title {
+    font-weight: 500;
+}
+
+.about .articles .desc {
+    width: 10em;
+    margin: 0 0 2em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

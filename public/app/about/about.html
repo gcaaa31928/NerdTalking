@@ -32,8 +32,11 @@
     <div class="sidebar border"></div>
     <div class="hottest-articles">
         <h4>熱門文章</h4>
-        <div class="article">
-
+        <div class="articles" *ngFor="let article of hottestArticles">
+            <h5 class="title">{{article.title}}</h5>
+            <p class="desc">
+                {{article.desc}}
+            </p>
         </div>
     </div>
 </div>
