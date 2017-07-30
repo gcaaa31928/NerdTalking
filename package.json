@@ -12,7 +12,7 @@
     "tsc:w": "tsc -w",
     "sass:w": "node-sass -wr public -o public/",
     "sass": "node-sass public -o public/",
-    "serve": "concurrently 'npm run tsc:w' 'npm run sass:w' -n \"Typescript,Sass\" -p \"name\""
+    "serve": "concurrently \"npm run tsc:w\" \"npm run sass:w\" -n \"Typescript,Sass\" -p \"name\""
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "core-js": "^2.4.1",
     "node-sass": "^3.13.0",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "~5.4.1",
     "systemjs": "0.19.40",
     "zone.js": "^0.6.26"
   },
